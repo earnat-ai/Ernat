@@ -7,7 +7,7 @@ export default function Header() {
             {/* Company */}
             <div className="h-10 flex items-center gap-2">
                 <Image
-                    src="/icons/Logo's/headerLogo.svg"
+                    src="/icons/Logo's/HeaderLogo.svg"
                     alt="Ernat Logo"
                     width={100}
                     height={100}
