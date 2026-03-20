@@ -3,22 +3,22 @@ import React from "react";
 
 export default function LoginForm() {
     return (
-        <div className="flex items-center justify-center w-full min-h-screen px-4 bg-gradient-to-br from-[#F5F5F5] to-[#EAEAEA]">
+        <div className="flex items-center justify-center w-full min-h-screen bg-gradient-to-br from-[#F5F5F5] to-[#EAEAEA] px-4">
 
             {/* main container */}
-            <div className="flex items-center justify-center w-full max-w-[1240px]">
+            <div className="w-full max-w-[1240px] flex items-center justify-center">
 
                 {/* card */}
                 <div className="w-full max-w-[360px] bg-[#F77F00] rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300">
 
-                    {/* top */}
-                    <div className="flex justify-center items-center py-14">
-                        <h1 className="text-[24px] font-bold text-white tracking-wide">
+                    {/* 🔥 FIXED HEADER HEIGHT */}
+                    <div className="flex justify-center items-center h-[140px] md:h-[160px]">
+                        <h1 className="text-[26px] md:text-[30px] font-bold text-white tracking-wide">
                             Login
                         </h1>
                     </div>
 
-                    {/* form */}
+                    {/* form section */}
                     <div className="bg-white rounded-tr-[60px] p-6 flex flex-col gap-5">
 
                         {/* heading */}
@@ -39,7 +39,7 @@ export default function LoginForm() {
                                 className="flex-1 h-[44px] border border-gray-300 bg-gray-100 rounded-md px-3 outline-none text-sm focus:ring-2 focus:ring-[#F77F00]"
                             />
 
-                            <button className="h-[44px] px-4 bg-[#F77F00] text-white text-sm font-semibold rounded-md hover:bg-[#e96f00] transition">
+                            <button className="h-[44px] px-4 bg-[#F77F00] text-white text-sm font-semibold rounded-md hover:bg-[#e96f00] transition whitespace-nowrap">
                                 Send OTP
                             </button>
                         </div>
@@ -47,7 +47,7 @@ export default function LoginForm() {
                         {/* divider */}
                         <div className="flex items-center w-full">
                             <hr className="flex-1 border-gray-300" />
-                            <span className="px-2 text-[12px] text-gray-500">
+                            <span className="px-2 text-[12px] text-gray-500 whitespace-nowrap">
                                 or sign in using
                             </span>
                             <hr className="flex-1 border-gray-300" />
