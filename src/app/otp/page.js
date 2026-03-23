@@ -14,7 +14,7 @@ export default function Otp() {
                         {/* header */}
                         <div className="flex justify-center items-center h-[140px] md:h-[160px]">
                             <h1 className="text-[26px] md:text-[30px] font-bold text-white tracking-wide">
-                                OTP verify
+                                OTP Verify
                             </h1>
                         </div>
 
@@ -43,7 +43,7 @@ export default function Otp() {
                             </div>
                             <p className="text-[12px] text-gray-500">
                                 Already have an account?{" "}
-                                <span className="text-gray-500  text-[10px]">
+                                <span className="text-black  text-[10px]">
                                     Resend in 43 Sec
                                 </span>
                             </p>
