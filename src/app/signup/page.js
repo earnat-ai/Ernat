@@ -21,59 +21,60 @@ export default function SignupForm() {
                         {/* form section */}
                         <div className="bg-white rounded-tr-[60px] p-6 flex flex-col gap-4">
 
-                            {/* Full Name */}
-                            <div className="flex flex-col w-full gap-1">
-                                <label className="text-sm font-medium text-gray-700">
-                                    Full Name
-                                </label>
+                            <form className="flex flex-col gap-4">
+                                {/* Full Name */}
+                                <div className="flex flex-col w-full gap-1">
+                                    <label className="text-sm font-medium text-gray-700">
+                                        Full Name
+                                    </label>
 
-                                <input
-                                    type="text"
-                                    className="w-full h-[44px] border border-gray-300 bg-gray-100 rounded-md px-3 outline-none text-sm focus:ring-2 focus:ring-[#F77F00]"
-                                />
-                            </div>
+                                    <input
+                                        type="text"
+                                        className="w-full h-[44px] border border-gray-300 bg-gray-100 rounded-md px-3 outline-none text-sm focus:ring-2 focus:ring-[#F77F00]"
+                                    />
+                                </div>
 
-                            {/* Email */}
-                            <div className="flex flex-col w-full gap-1">
-                                <label className="text-sm font-medium text-gray-700">
-                                    Email Address
-                                </label>
+                                {/* Email */}
+                                <div className="flex flex-col w-full gap-1">
+                                    <label className="text-sm font-medium text-gray-700">
+                                        Email Address
+                                    </label>
 
-                                <input
-                                    type="email"
-                                    className="w-full h-[44px] border border-gray-300 bg-gray-100 rounded-md px-3 outline-none text-sm focus:ring-2 focus:ring-[#F77F00]"
-                                />
-                            </div>
+                                    <input
+                                        type="email"
+                                        className="w-full h-[44px] border border-gray-300 bg-gray-100 rounded-md px-3 outline-none text-sm focus:ring-2 focus:ring-[#F77F00]"
+                                    />
+                                </div>
 
-                            {/* Password */}
-                            <div className="flex flex-col w-full gap-1">
-                                <label className="text-sm font-medium text-gray-700">
-                                    Password
-                                </label>
+                                {/* Password */}
+                                <div className="flex flex-col w-full gap-1">
+                                    <label className="text-sm font-medium text-gray-700">
+                                        Password
+                                    </label>
 
-                                <input
-                                    type="password"
-                                    className="w-full h-[44px] border border-gray-300 bg-gray-100 rounded-md px-3 outline-none text-sm focus:ring-2 focus:ring-[#F77F00]"
-                                />
-                            </div>
+                                    <input
+                                        type="password"
+                                        className="w-full h-[44px] border border-gray-300 bg-gray-100 rounded-md px-3 outline-none text-sm focus:ring-2 focus:ring-[#F77F00]"
+                                    />
+                                </div>
 
-                            {/* Confirm Password */}
-                            <div className="flex flex-col w-full gap-1">
-                                <label className="text-sm font-medium text-gray-700">
-                                    Confirm Password
-                                </label>
+                                {/* Confirm Password */}
+                                <div className="flex flex-col w-full gap-1">
+                                    <label className="text-sm font-medium text-gray-700">
+                                        Confirm Password
+                                    </label>
 
-                                <input
-                                    type="password"
-                                    className="w-full h-[44px] border border-gray-300 bg-gray-100 rounded-md px-3 outline-none text-sm focus:ring-2 focus:ring-[#F77F00]"
-                                />
-                            </div>
+                                    <input
+                                        type="password"
+                                        className="w-full h-[44px] border border-gray-300 bg-gray-100 rounded-md px-3 outline-none text-sm focus:ring-2 focus:ring-[#F77F00]"
+                                    />
+                                </div>
 
-                            {/* button */}
-                            <button className="h-[44px] w-full bg-[#F77F00] text-white text-sm font-semibold rounded-md hover:bg-[#e96f00] transition mt-2">
-                                Sign up
-                            </button>
-
+                                {/* button */}
+                                <button className="h-[44px] w-full bg-[#F77F00] text-white text-sm font-semibold rounded-md hover:bg-[#e96f00] transition mt-2">
+                                    Sign up
+                                </button>
+                            </form>
                             {/* footer */}
                             <div className="text-center text-[11px] text-gray-500 space-y-2 px-2 leading-relaxed">
                                 <p>
