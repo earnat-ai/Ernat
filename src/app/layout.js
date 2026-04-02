@@ -1,5 +1,6 @@
 import { Aboreto, Inter } from 'next/font/google'
 import "./globals.css";
+import MainSidebar from '@/components/Sidebar/mainSidebar';
 
 const aboreto = Aboreto({
   subsets: ['latin'],
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${aboreto.variable}`}>
+        <MainSidebar/>
         {children}
       </body>
     </html>
