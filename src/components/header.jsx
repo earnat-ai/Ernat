@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function Header() {
     return (
         // Header Start
-        <div className="px-4 md:px-8 lg:px-16 py-3 md:py-4 lg:py-6 flex justify-between items-center gap-5">
+        <div className="px-4 md:px-8 lg:px-8 py-3 md:py-4 lg:py-6 flex justify-between items-center gap-5">
 
             {/* Company */}
             <div className="h-10 flex items-center gap-2">
