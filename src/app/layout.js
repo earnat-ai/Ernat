@@ -1,4 +1,6 @@
-import { Aboreto, Inter } from 'next/font/google'
+import { Aboreto, Inter } from 'next/font/google';
+import Header from "../components/header";
+import Footer from "../components/footer";
 import "./globals.css";
 
 const aboreto = Aboreto({
@@ -21,7 +23,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${aboreto.variable}`}>
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

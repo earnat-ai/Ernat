@@ -1,6 +1,14 @@
 import Image from "next/image";
+import { Julius_Sans_One } from 'next/font/google';
 
-export default function TopDeals({image, discount, category}) {
+const julius = Julius_Sans_One({
+  subsets: ['latin'],
+  weight: '400',
+  variable: '--font-julius',
+});
+
+
+export default function TopDeals({image, discount, category, imgClass}) {
     return (
         
         <div className="flex flex-col justify-center items-center gap-4">
@@ -10,7 +18,7 @@ export default function TopDeals({image, discount, category}) {
                 alt="Shopping Image"
                 width={100}
                 height={100}
-                className="w-40 h-auto absolute -top-10 left-0"
+                className={`absolute ${imgClass}`}
                 priority
             />
 
@@ -19,7 +27,7 @@ export default function TopDeals({image, discount, category}) {
 
         </div>
 
-        <h1 className="text-[#F77F00] text-[16px] [text-shadow:0px_2px_4px_rgba(0,0,0,0.4)]"> GRAB NOW</h1>
+        <h1 className={` text-[#F77F00] text-[16px] [text-shadow:0px_2px_4px_rgba(0,0,0,0.4)] ${julius.className} `}> GRAB NOW</h1>
         </div>
         
 

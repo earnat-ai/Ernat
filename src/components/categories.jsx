@@ -1,6 +1,6 @@
 export default function Categories() {
     return (
-        <div className="w-full flex justify-between items-center bg-[#ff9500] px-4 md:px-5 lg:px-8 py-3 md:py-4 lg:py-6 gap-2 font-semibold text-[16px]">
+        <div className="w-full flex justify-between items-center bg-[#ff9500] px-4 md:px-5 lg:px-8 py-3 md:py-4 lg:py-4 gap-2 font-medium text-[18px] lg:text-[22px]">
 
             <button>What's New</button>
             <button>Best Offers</button>
