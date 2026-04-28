@@ -7,6 +7,7 @@ export default function Login() {
 
             <div className="hidden md:flex flex-col justify-center items-center min-h-screen w-[50%] bg-[#F77F00] text-white ">
                 {/* TOP LOGO */}
+               
                 <div className="flex justify-start items-center w-28 h-20 mr-100">
                     <h1 className="text-2xl font-bold">
                         Earnat.
@@ -28,6 +29,7 @@ export default function Login() {
 
 
                 </div>
+               
             </div>
 
 
@@ -81,11 +83,11 @@ export default function Login() {
 
                     {/* Footer */}
                     <p className="text-center text-sm text-gray-500 mt-6">
-                        By continuing, you agree to <b className="text-black"> Terms</b> and <b className="text-black"> privacy policy.</b>
+                        By continuing, you agree to <b className="text-[#6b7280]"> Terms</b> and <b className="text-[#6b7280]"> privacy policy.</b>
                     </p>
 
                     <p className="text-center text-sm   text-gray-500 mt-2">
-                        Already have an account? <b className="text-black"> sign in</b>
+                        Already have an account? <b className="text-[#6b7280]"> sign in</b>
                     </p>
 
                 </div>
