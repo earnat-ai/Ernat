@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-
-export default function SignupForm(){
-    return(
-        <>
-          
-        </>
-    )
-=======
 import React from "react";
 
 export default function SignupForm() {
@@ -101,5 +92,4 @@ export default function SignupForm() {
             </div>
         </>
     );
->>>>>>> 9c84182b31d609db9be08985296ff825995aa12b
 }
