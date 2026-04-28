@@ -199,6 +199,7 @@ export default function page() {
                             <button className='bg-red-600  text-white text-sm h-[40px] w-[200px] mt-2 rounded-xl font-bold mt-5'>
                                 Deactivate My Account</button>
 
+  
                         </div>
                     </div>
 
